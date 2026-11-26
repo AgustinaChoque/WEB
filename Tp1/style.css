@@ -1,0 +1,17 @@
+.tarjeta1{ border: 2px #ffffff;
+    padding: 15px;
+    margin: 20px;
+    background-color: #dda9ec;
+}
+
+.tarjeta2{ border: 2px black;
+    padding: 15px;
+    margin: 20px;
+    background-color: #9a60ac;
+}
+
+.tarjeta3{ border: 2px #fff8f8;
+    padding: 15px;
+    margin: 20px;
+    background-color: #552a62;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 1fr 4ch 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "todo nada nada"
+    "todo nada nada"
+    "todo nada nada";
+}
+
+.articulo{
+    background-color: #c65bf4;
+    grid-area: todo;
+}
+
+.articulo-2{
+    background-color: #8ae3e8;
+    grid-area: nada;
+}
+
